@@ -39,7 +39,7 @@ main {
     align-items: center;
     flex-direction: column;
     & img {
-      margin: -53px 0 14px 0;
+      margin: -53px 0 18px 0;
       width: 96px;
       border: 5px white solid;
       border-radius: 100%;
@@ -58,14 +58,14 @@ main {
     .location {
       color: var(--Dark-grayish-blue);
       font-size: 14px;
-      margin-bottom: 28px;
+      margin-bottom: 24px;
     }
     & hr {
       width: 100%;
       border: 0;
       height: 1px;
       background-color: #e8e9ec;
-      margin-bottom: 19px;
+      margin-bottom: 23px;
     }
     .metrics {
       display: flex;
