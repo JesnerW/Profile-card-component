@@ -43,6 +43,7 @@ main {
   border-radius: 15px;
   position: relative;
   overflow: hidden;
+  box-shadow: 0px 50px 90px 0px #00000040;
   .info {
     position: absolute;
     width: 100%;
