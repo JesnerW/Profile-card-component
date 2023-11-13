@@ -17,10 +17,24 @@ body {
   background-color: var(--Dark-cyan);
 }
 main {
+  position: relative;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  & > img {
+    position: fixed;
+    width: 978px;
+    height: 976px;
+  }
+  & > img:first-child {
+    top: -510px;
+    left: -284px;
+  }
+  & > img:nth-child(2) {
+    bottom: -633px;
+    right: -229px;
+  }
 }
 .card {
   background-image: url("./images/bg-pattern-card.svg");
